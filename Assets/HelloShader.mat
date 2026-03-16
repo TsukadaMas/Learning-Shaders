@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 1365069f9e37fed40b88e93f90f948ef, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9643ed7ffbe6d1c40963d4885bb25186, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -60,11 +60,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myCube:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 8900000, guid: 34a763168147f4182a21b9fd004d67de, type: 3}
+        m_Scale: {x: 2.19, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myTex:
         m_Texture: {fileID: 2800000, guid: 27dcac97c77064349b5278157901e387, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texture:
+        m_Texture: {fileID: 2800000, guid: d731d71c2b8e94c18b5ef8be277e6773, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -87,13 +91,13 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _myFloat: 0.5
-    - _myRange: 2.41
+    - _myRange: 2.57
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _mEmission: {r: 0.4433962, g: 0.06901923, b: 0.08643212, a: 1}
-    - _myColor: {r: 1, g: 1, b: 1, a: 1}
+    - _myColor: {r: 0.3584906, g: 0.1268245, b: 0.23024692, a: 1}
     - _myColour: {r: 0.9811321, g: 0.83321506, b: 0.72659314, a: 0.4627451}
     - _myNormal: {r: 0.4811321, g: 0.2791474, b: 0.2791474, a: 1}
     - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
